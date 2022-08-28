@@ -63,6 +63,4 @@ class SecurityConfig {
     fun rsocketStrategies() = RSocketStrategies.builder()
         .routeMatcher(PathPatternRouteMatcher())
         .build()
-
-
 }
